@@ -1,0 +1,25 @@
+@import "loadFile.css";
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f1e3e3;
+  height: 50px;
+}
+.headerLink {
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+.headerLink:hover {
+  background-color: #ddd;
+}
+
+h1 {
+  text-align: center
+}
+
+
+

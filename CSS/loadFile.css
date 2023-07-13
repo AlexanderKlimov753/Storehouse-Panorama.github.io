@@ -1,0 +1,42 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f1e3e3;
+  height: 50px;
+  margin-bottom: 35px;
+}
+
+.headerLink {
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.headerLink:hover {
+  background-color: #ddd;
+}
+
+p {
+  font-size: 20px;
+}
+
+#dropZone {
+  width: 500px;
+  height: 500px;
+  border: 2px dashed gray;
+  text-align: center;
+  line-height: 200px;
+  font-size: 17px;
+  display: block;
+  margin: 0 auto;
+}
+
+#dropZone.dragover {
+  background-color: rgb(235, 133, 133);
+}
+
+#uploadedFiles {
+
+}
